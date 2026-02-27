@@ -1,0 +1,20 @@
+[
+  {
+    "campaign_id": "dc_001",
+    "name": "early_bird_special",
+    "promo_code": "morning15",
+    "description": "15 percent flat discount on all shows starting before 11:00 am.",
+    "discount_percentage": 15,
+    "max_discount_amount": 100,
+    "conditions": ["time < 11:00"]
+  },
+  {
+    "campaign_id": "dc_002",
+    "name": "blockbuster_weekend",
+    "promo_code": "blockbuster20",
+    "description": "20 percent discount on minimum booking of 4 tickets for weekend shows.",
+    "discount_percentage": 20,
+    "max_discount_amount": 200,
+    "conditions": ["tickets >= 4", "day in [saturday, sunday]"]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "movie_id": "m001",
+    "title": "galactic warfare: the final frontier",
+    "genre": ["sci-fi", "action"],
+    "language": ["english", "hindi"],
+    "budget_category": "high",
+    "age_group": "pg-13",
+    "release_type": "wide release",
+    "duration_minutes": 145,
+    "user_rating": 8.5
+  },
+  {
+    "movie_id": "m002",
+    "title": "whispers in the dark",
+    "genre": ["horror", "thriller"],
+    "language": ["english"],
+    "budget_category": "low",
+    "age_group": "r",
+    "release_type": "limited release",
+    "duration_minutes": 98,
+    "user_rating": 6.8
+  },
+  {
+    "movie_id": "m003",
+    "title": "mumbai diaries: the heist",
+    "genre": ["action", "crime"],
+    "language": ["hindi"],
+    "budget_category": "high",
+    "age_group": "r",
+    "release_type": "wide release",
+    "duration_minutes": 130,
+    "user_rating": 7.9
+  },
+  {
+    "movie_id": "m004",
+    "title": "love in the alps",
+    "genre": ["romance", "comedy"],
+    "language": ["english", "hindi"],
+    "budget_category": "medium",
+    "age_group": "pg",
+    "release_type": "wide release",
+    "duration_minutes": 115,
+    "user_rating": 7.2
+  },
+  {
+    "movie_id": "m005",
+    "title": "the forgotten king",
+    "genre": ["historical", "drama"],
+    "language": ["hindi"],
+    "budget_category": "high",
+    "age_group": "pg-13",
+    "release_type": "wide release",
+    "duration_minutes": 160,
+    "user_rating": 8.8
+  },
+  {
+    "movie_id": "m006",
+    "title": "little paws big city",
+    "genre": ["animation", "family"],
+    "language": ["english"],
+    "budget_category": "medium",
+    "age_group": "g",
+    "release_type": "wide release",
+    "duration_minutes": 90,
+    "user_rating": 8.1
+  },
+  {
+    "movie_id": "m007",
+    "title": "shadow protocol",
+    "genre": ["spy", "action"],
+    "language": ["english"],
+    "budget_category": "high",
+    "age_group": "pg-13",
+    "release_type": "wide release",
+    "duration_minutes": 135,
+    "user_rating": 7.5
+  },
+  {
+    "movie_id": "m008",
+    "title": "midnight symphony",
+    "genre": ["musical", "drama"],
+    "language": ["english"],
+    "budget_category": "low",
+    "age_group": "pg",
+    "release_type": "indie release",
+    "duration_minutes": 105,
+    "user_rating": 9.1
+  },
+  {
+    "movie_id": "m009",
+    "title": "the haunted mansion of shimla",
+    "genre": ["horror", "mystery"],
+    "language": ["hindi"],
+    "budget_category": "low",
+    "age_group": "r",
+    "release_type": "limited release",
+    "duration_minutes": 112,
+    "user_rating": 6.5
+  },
+  {
+    "movie_id": "m010",
+    "title": "supernova crash",
+    "genre": ["sci-fi", "adventure"],
+    "language": ["english", "hindi"],
+    "budget_category": "high",
+    "age_group": "pg-13",
+    "release_type": "wide release",
+    "duration_minutes": 150,
+    "user_rating": 8.3
+  }
+]

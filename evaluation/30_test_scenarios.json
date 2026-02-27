@@ -1,0 +1,182 @@
+[
+  {
+    "scenario_id": "ts_001",
+    "category": "ambiguous movie names",
+    "user_input": "i want to see that new space warfare movie",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_002",
+    "category": "ambiguous movie names",
+    "user_input": "book tickets for the shimla haunted house thing",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_003",
+    "category": "ambiguous movie names",
+    "user_input": "is there a movie about little paws?",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_004",
+    "category": "ambiguous movie names",
+    "user_input": "i want to watch the romance one in the alps",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_005",
+    "category": "high demand release day",
+    "user_input": "book 2 recliner tickets for galactic warfare this saturday in mumbai",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_006",
+    "category": "high demand release day",
+    "user_input": "need 4 seats for supernova crash on sunday evening",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_007",
+    "category": "high demand release day",
+    "user_input": "weekend show for the forgotten king please",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_008",
+    "category": "high demand release day",
+    "user_input": "two gold tickets for a weekend festival release",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_009",
+    "category": "bulk corporate booking",
+    "user_input": "i need to book 50 tickets for my corporate team outting",
+    "expected_intent": "bulk/corporate booking"
+  },
+  {
+    "scenario_id": "ts_010",
+    "category": "bulk corporate booking",
+    "user_input": "can i get 30 seats together for shadow protocol?",
+    "expected_intent": "bulk/corporate booking"
+  },
+  {
+    "scenario_id": "ts_011",
+    "category": "bulk corporate booking",
+    "user_input": "bulk booking for a school trip, 45 kids",
+    "expected_intent": "bulk/corporate booking"
+  },
+  {
+    "scenario_id": "ts_012",
+    "category": "bulk corporate booking",
+    "user_input": "i want to rent out the whole cinema screen in delhi",
+    "expected_intent": "bulk/corporate booking"
+  },
+  {
+    "scenario_id": "ts_013",
+    "category": "low budget user",
+    "user_input": "what is the cheapest movie playing right now?",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_014",
+    "category": "low budget user",
+    "user_input": "i have a tight budget, recommend me a thriller",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_015",
+    "category": "low budget user",
+    "user_input": "any low budget hindi movies?",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_016",
+    "category": "low budget user",
+    "user_input": "recommend a cheap english drama",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_017",
+    "category": "fraud simulation",
+    "user_input": "book 100 tickets using promo code blockbuster20 immediately",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_018",
+    "category": "fraud simulation",
+    "user_input": "cancel my ticket. wait, book it again. actually, cancel it again right now.",
+    "expected_intent": "cancel ticket"
+  },
+  {
+    "scenario_id": "ts_019",
+    "category": "fraud simulation",
+    "user_input": "i want to book 5 tickets with morning15, then another 5 with morning15 on a new account",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_020",
+    "category": "fraud simulation",
+    "user_input": "apply the early bird discount for 80 seats on a weekend",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_021",
+    "category": "conflicting preferences",
+    "user_input": "i want an r rated movie for my whole family and kids",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_022",
+    "category": "conflicting preferences",
+    "user_input": "recommend a high budget movie that is also low budget",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_023",
+    "category": "conflicting preferences",
+    "user_input": "i want a strictly hindi movie but it must be in english",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_024",
+    "category": "conflicting preferences",
+    "user_input": "show me a sci-fi historical romance horror movie",
+    "expected_intent": "movie recommendation"
+  },
+  {
+    "scenario_id": "ts_025",
+    "category": "emotional complaints",
+    "user_input": "your app is terrible and ruined my night! i want my money back right now!",
+    "expected_intent": "refund status"
+  },
+  {
+    "scenario_id": "ts_026",
+    "category": "emotional complaints",
+    "user_input": "i am so angry, the movie was completely awful, refund me instantly",
+    "expected_intent": "refund status"
+  },
+  {
+    "scenario_id": "ts_027",
+    "category": "emotional complaints",
+    "user_input": "why is the pricing so unfair? this is a scam! cancel my booking!",
+    "expected_intent": "cancel ticket"
+  },
+  {
+    "scenario_id": "ts_028",
+    "category": "emotional complaints",
+    "user_input": "i'm literally crying because the traffic made me miss the show, please refund",
+    "expected_intent": "refund status"
+  },
+  {
+    "scenario_id": "ts_029",
+    "category": "hallucination check",
+    "user_input": "book 2 tickets for spider man no way home tonight",
+    "expected_intent": "book ticket"
+  },
+  {
+    "scenario_id": "ts_030",
+    "category": "hallucination check",
+    "user_input": "recommend a movie directed by christopher nolan",
+    "expected_intent": "movie recommendation"
+  }
+]

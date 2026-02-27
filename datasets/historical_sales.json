@@ -1,0 +1,56 @@
+[
+  {
+    "record_id": "hs_001",
+    "movie_title": "galactic warfare: the final frontier",
+    "genre": ["sci-fi", "action"],
+    "release_type": "wide release",
+    "city": "mumbai",
+    "day_of_week": "saturday",
+    "tickets_sold": 550
+  },
+  {
+    "record_id": "hs_002",
+    "movie_title": "galactic warfare: the final frontier",
+    "genre": ["sci-fi", "action"],
+    "release_type": "wide release",
+    "city": "delhi",
+    "day_of_week": "tuesday",
+    "tickets_sold": 120
+  },
+  {
+    "record_id": "hs_003",
+    "movie_title": "whispers in the dark",
+    "genre": ["horror", "thriller"],
+    "release_type": "limited release",
+    "city": "bangalore",
+    "day_of_week": "friday",
+    "tickets_sold": 310
+  },
+  {
+    "record_id": "hs_004",
+    "movie_title": "love in the alps",
+    "genre": ["romance", "comedy"],
+    "release_type": "wide release",
+    "city": "mumbai",
+    "day_of_week": "wednesday",
+    "tickets_sold": 85
+  },
+  {
+    "record_id": "hs_005",
+    "movie_title": "supernova crash",
+    "genre": ["sci-fi", "adventure"],
+    "release_type": "wide release",
+    "city": "delhi",
+    "day_of_week": "sunday",
+    "tickets_sold": 480
+  },
+  {
+    "record_id": "hs_006",
+    "movie_title": "midnight symphony",
+    "genre": ["musical", "drama"],
+    "release_type": "indie release",
+    "city": "bangalore",
+    "day_of_week": "monday",
+    "tickets_sold": 45
+  }
+]

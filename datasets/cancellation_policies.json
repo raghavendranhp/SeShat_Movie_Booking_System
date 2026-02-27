@@ -1,0 +1,16 @@
+[
+  {
+    "policy_id": "cp_001",
+    "name": "standard_cancellation",
+    "description": "full refund provided if cancellation is done 24 hours prior to showtime.",
+    "time_window_hours": 24,
+    "refund_percentage": 100
+  },
+  {
+    "policy_id": "cp_002",
+    "name": "last_minute_cancellation",
+    "description": "partial refund provided if cancellation is between 4 and 24 hours prior to showtime. no refund if less than 4 hours.",
+    "time_window_hours": 4,
+    "refund_percentage": 50
+  }
+]

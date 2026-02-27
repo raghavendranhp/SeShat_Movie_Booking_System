@@ -1,0 +1,34 @@
+[
+  {
+    "rule_id": "pr_001",
+    "rule_name": "base_seat_pricing",
+    "description": "base price depends on the seat type selected by the user.",
+    "conditions": {
+      "silver": 150.00,
+      "gold": 250.00,
+      "recliner": 400.00
+    },
+    "multiplier": 1.0
+  },
+  {
+    "rule_id": "pr_002",
+    "rule_name": "weekend_surge",
+    "description": "applies a surge multiplier for saturday and sunday shows.",
+    "conditions": ["saturday", "sunday"],
+    "multiplier": 1.2
+  },
+  {
+    "rule_id": "pr_003",
+    "rule_name": "festival_release_surge",
+    "description": "applies a surge multiplier for movies marked as high demand festival releases.",
+    "conditions": ["festival release", "first week"],
+    "multiplier": 1.15
+  },
+  {
+    "rule_id": "pr_004",
+    "rule_name": "dynamic_occupancy_surge",
+    "description": "increases price when theatre occupancy is predicted to be greater than 80 percent.",
+    "conditions": "occupancy > 80%",
+    "multiplier": 1.25
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "theatre_id": "t001",
+    "name": "cinestar multiplex",
+    "city": "mumbai",
+    "screens": 6,
+    "seat_types": ["silver", "gold", "recliner"],
+    "facilities": ["dolby atmos", "imax", "food court"]
+  },
+  {
+    "theatre_id": "t002",
+    "name": "galaxy cinemas",
+    "city": "delhi",
+    "screens": 4,
+    "seat_types": ["silver", "gold"],
+    "facilities": ["dolby digital", "food court"]
+  },
+  {
+    "theatre_id": "t003",
+    "name": "starlight arena",
+    "city": "bangalore",
+    "screens": 8,
+    "seat_types": ["silver", "gold", "recliner"],
+    "facilities": ["dolby atmos", "4dx", "food court", "valet parking"]
+  }
+]

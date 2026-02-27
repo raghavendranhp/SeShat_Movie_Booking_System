@@ -1,0 +1,31 @@
+scenario_id,category,user_input,expected_intent,actual_intent,intent_match,tokens_consumed
+ts_001,ambiguous movie names,i want to see that new space warfare movie,book ticket,movie recommendation,False,2558
+ts_002,ambiguous movie names,book tickets for the shimla haunted house thing,book ticket,book ticket,True,940
+ts_003,ambiguous movie names,is there a movie about little paws?,movie recommendation,movie recommendation,True,2559
+ts_004,ambiguous movie names,i want to watch the romance one in the alps,book ticket,movie recommendation,False,2572
+ts_005,high demand release day,book 2 recliner tickets for galactic warfare this saturday in mumbai,book ticket,book ticket,True,4262
+ts_006,high demand release day,need 4 seats for supernova crash on sunday evening,book ticket,book ticket,True,4177
+ts_007,high demand release day,weekend show for the forgotten king please,book ticket,check show timings,False,938
+ts_008,high demand release day,two gold tickets for a weekend festival release,book ticket,book ticket,True,4231
+ts_009,bulk corporate booking,i need to book 50 tickets for my corporate team outting,bulk/corporate booking,bulk/corporate booking,True,943
+ts_010,bulk corporate booking,can i get 30 seats together for shadow protocol?,bulk/corporate booking,bulk/corporate booking,True,941
+ts_011,bulk corporate booking,"bulk booking for a school trip, 45 kids",bulk/corporate booking,bulk/corporate booking,True,940
+ts_012,bulk corporate booking,i want to rent out the whole cinema screen in delhi,bulk/corporate booking,bulk/corporate booking,True,943
+ts_013,low budget user,what is the cheapest movie playing right now?,movie recommendation,unknown,False,930
+ts_014,low budget user,"i have a tight budget, recommend me a thriller",movie recommendation,movie recommendation,True,2561
+ts_015,low budget user,any low budget hindi movies?,movie recommendation,movie recommendation,True,2552
+ts_016,low budget user,recommend a cheap english drama,movie recommendation,movie recommendation,True,2553
+ts_017,fraud simulation,book 100 tickets using promo code blockbuster20 immediately,book ticket,bulk/corporate booking,False,940
+ts_018,fraud simulation,"cancel my ticket. wait, book it again. actually, cancel it again right now.",cancel ticket,cancel ticket,True,1048
+ts_019,fraud simulation,"i want to book 5 tickets with morning15, then another 5 with morning15 on a new account",book ticket,book ticket,True,952
+ts_020,fraud simulation,apply the early bird discount for 80 seats on a weekend,book ticket,bulk/corporate booking,False,944
+ts_021,conflicting preferences,i want an r rated movie for my whole family and kids,movie recommendation,movie recommendation,True,2642
+ts_022,conflicting preferences,recommend a high budget movie that is also low budget,movie recommendation,,False,908
+ts_023,conflicting preferences,i want a strictly hindi movie but it must be in english,movie recommendation,movie recommendation,True,2650
+ts_024,conflicting preferences,show me a sci-fi historical romance horror movie,movie recommendation,movie recommendation,True,2633
+ts_025,emotional complaints,your app is terrible and ruined my night! i want my money back right now!,refund status,refund status,True,943
+ts_026,emotional complaints,"i am so angry, the movie was completely awful, refund me instantly",refund status,refund status,True,940
+ts_027,emotional complaints,why is the pricing so unfair? this is a scam! cancel my booking!,cancel ticket,cancel ticket,True,942
+ts_028,emotional complaints,"i'm literally crying because the traffic made me miss the show, please refund",refund status,refund status,True,941
+ts_029,hallucination check,book 2 tickets for spider man no way home tonight,book ticket,book ticket,True,4156
+ts_030,hallucination check,recommend a movie directed by christopher nolan,movie recommendation,movie recommendation,True,2569

@@ -1,0 +1,12 @@
+# Web Framework & UI
+streamlit
+
+# LLM API Client
+groq
+
+# Environment Variable Management (for GROQ_API_KEY)
+python-dotenv
+
+# Data Handling & JSON Validation
+pandas
+pydantic
