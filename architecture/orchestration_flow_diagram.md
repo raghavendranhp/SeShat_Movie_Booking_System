@@ -3,7 +3,7 @@
 this document maps the routing logic managed by the python orchestrator, showing how user inputs are parsed by agent 1 and then routed to the specialized agents alongside the local rag datasets.
 
 ```mermaid
-graph td
+graph TD
     %%user initiates request
     u[user input via streamlit] --> o[python orchestrator]
     
